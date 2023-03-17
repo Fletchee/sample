@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    display: block;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    /* clear: both; */
+    background-color: #545e75;
+}
+.NavigationBar {
+    display: flexbox;
+    flex-direction: row;
+    float: right;
+}
+.NavigationBar > span {
+    display: inline-flex;
+    /* background-color: greenyellow; */
+    text-align: center;
+    float: right;
+    padding: 5px;
+    margin: 5px 15px 5px 5px;
+}
+
+.NavigationBar > span > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+/* Name card*/
+Section {
+    display: block;
+    position: relative;
+    top: 30px;
+    height: auto;
+    width: 100%;
+    clear: both;
+}
+.NameCard {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+    background-color: #7db58f;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+
+.NameCard img {
+    height: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px 20px 5px 5px;
+    float: left;
+}
+
+.NameCard>div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: transparent;
+}
+
+.NameCard div>h2 ~ ul {
+    display: block;
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    clear: both;
+    padding: 0px 20px 0px 0px;
+    margin: 0px;
+}
+
+.NameCard > div > h2 {
+    display: block;
+    font-size: 20px;
+    margin: 0px 20px 0px 0px;
+}
+
+.NameCard div > ul > li {
+    font-size: 14px;
+    display: block;
+    list-style-type: none;
+    margin: 6px 0px 0px 0px;
+}
